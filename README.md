@@ -1,2 +1,3 @@
 # StopWatch React Project 
-![alona-perez-p4xNF5ZPc0c-unsplash](https://github.com/user-attachments/assets/536ba197-f1b6-4dde-bd2e-1d2871333185)
+![image](https://github.com/user-attachments/assets/c5e29f0e-a5bc-411a-a66d-6b0a1fa010b8)
+
