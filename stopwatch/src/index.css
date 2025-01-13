@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('../public/alona-perez-p4xNF5ZPc0c-unsplash.jpg') no-repeat center center/cover;
+  color: white;
+}
+
+.stopwatch {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  width: 600px;
+}
+
+.display {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 2px solid #fff;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+button {
+  flex: 1;
+  padding: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.start-btn {
+  background-color: #4CAF50; /* Green */
+}
+
+.start-btn:hover {
+  background-color: #45a049;
+  transform: scale(1.1);
+}
+
+.stop-btn {
+  background-color: #f44336; /* Red */
+}
+
+.stop-btn:hover {
+  background-color: #e53935;
+  transform: scale(1.1);
+}
+
+.reset-btn {
+  background-color: #0a0a0a; /* Blue */
+}
+
+.reset-btn:hover {
+  background-color: #072541;
+  transform: scale(1.1);
+}
+
+button:active {
+  transform: scale(0.9);
+}
