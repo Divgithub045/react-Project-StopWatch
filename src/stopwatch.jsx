@@ -37,7 +37,7 @@ function Stopwatch ()
         let hours = Math.floor(elapsed/(1000*60*60));
         let minutes = Math.floor(elapsed/(1000*60)%60);
         let seconds = Math.floor(elapsed/(1000)%60);
-        let milliseconds = Math.floor(elapsed%1000)/10;
+        let milliseconds = Math.floor((elapsed%1000)/10);
         hours = String(hours).padStart(2,'0');
         minutes = String(minutes).padStart(2,'0');
         seconds = String(seconds).padStart(2,'0');
